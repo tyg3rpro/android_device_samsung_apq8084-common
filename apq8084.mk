@@ -44,6 +44,14 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
+# Radio
+PRODUCT_PACKAGES += \
+    libsecnativefeature
+
+# RMNET
+PRODUCT_PACKAGES += \
+    librmnetctl
+
 # Thermal engine
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf

@@ -2,3 +2,7 @@
 camera2.portability.force_api=1
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
+
+# Radio
+rild.libpath=/system/lib/libsec-ril.so
+ro.ril.telephony.mqanelements=6
