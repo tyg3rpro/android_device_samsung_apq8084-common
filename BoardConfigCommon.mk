@@ -51,6 +51,9 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 HAVE_ADRENO_SOURCE := false
 USE_OPENGL_RENDERER := true
 
+# Include path
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/apq8084-common/include
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_apq8084
 TARGET_RECOVERY_DEVICE_MODULES := libinit_apq8084

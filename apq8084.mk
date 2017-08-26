@@ -14,4 +14,13 @@
 # limitations under the License.
 #
 
+# IR Blaster
+PRODUCT_PACKAGES += \
+    consumerir.apq8084
 
+# Lights
+PRODUCT_PACKAGES += \
+    lights.APQ8084
+
+# Common Qualcomm
+$(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
