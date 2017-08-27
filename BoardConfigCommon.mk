@@ -43,6 +43,7 @@ TARGET_KERNEL_SOURCE := kernel/samsung/apq8084
 # Camera
 TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 USE_DEVICE_SPECIFIC_CAMERA := true
+TARGET_SPECIFIC_CAMERA_PARAMETER_LIBRARY := libcamera_parameters_ext
 
 # Display
 OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
