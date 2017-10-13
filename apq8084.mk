@@ -58,3 +58,6 @@ PRODUCT_COPY_FILES += \
 
 # Common Qualcomm
 $(call inherit-product, device/samsung/qcom-common/qcom-common.mk)
+
+# Treble packages
+$(call inherit-product, device/samsung/apq8084-common/treble.mk)
