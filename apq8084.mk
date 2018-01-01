@@ -17,7 +17,8 @@
 # Camera
 PRODUCT_PACKAGES += \
     camera.apq8084 \
-    libxml2
+    libxml2 \
+    Snap
 
 # GPS
 PRODUCT_COPY_FILES += \
