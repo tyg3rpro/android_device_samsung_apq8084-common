@@ -76,6 +76,9 @@ TARGET_BOARD_PLATFORM := apq8084
 # Power HAL
 TARGET_POWERHAL_VARIANT := qcom
 
+# Properties
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
+
 # Qualcomm support
 TARGET_USES_QCOM_BSP := true
 TARGET_GLOBAL_CFLAGS += -DQCOM_BSP
