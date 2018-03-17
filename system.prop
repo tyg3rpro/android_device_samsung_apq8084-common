@@ -7,5 +7,5 @@ media.stagefright.less-secure=true
 persist.media.treble_omx=false
 
 # Radio
-rild.libpath=/system/lib/libsec-ril.so
+rild.libpath=/system/vendor/lib/libsec-ril.so
 ro.ril.telephony.mqanelements=6
