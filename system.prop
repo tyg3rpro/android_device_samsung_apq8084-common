@@ -3,6 +3,9 @@ camera2.portability.force_api=1
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 
+# Fingerprint
+fingerprint_enabled=1
+
 # Media /Default OMX service to non-Treble
 persist.media.treble_omx=false
 

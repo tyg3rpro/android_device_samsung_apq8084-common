@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Snap
 
+# Fingerprint sensor
+PRODUCT_PACKAGES += \
+    fingerprint.apq8084
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/flp.conf:/system/etc/flp.conf \
@@ -43,6 +47,10 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/vendor/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/vendor/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/vendor/etc/media_codecs_google_video.xml
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
 # Radio
 PRODUCT_PACKAGES += \
